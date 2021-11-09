@@ -4,10 +4,13 @@ function mudaCarrinho() {
 
 function mudaIndex() {
     window.location.href = "../index.html";
+    console.log("Entrou");
 }
 
 function mudaCadastro() {
     window.location.href = "cadastro.html";
+    console.log("Entrou");
 }
+
 
 

@@ -157,6 +157,7 @@ h1 {
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
+    margin: 0 25px;
 }
 
 .button-register:hover {
@@ -440,5 +441,16 @@ footer {
 
 .div-card-comprado:hover{
     background-color: rgb(225, 0, 255);
+}
+
+
+.btn-container {
+    width: 100%;
+}
+
+.btn-group {
+    display: flex; 
+    justify-content: center; 
+    align-content: center; 
 }
 
