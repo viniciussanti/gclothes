@@ -54,3 +54,11 @@ function comprar(id){
     montarCardProdutos();
 
 }
+
+function mudaLogin() {
+    window.location.href = "login.html";
+}
+
+function mudaCarrinho() {
+    window.location.href = "carrinho.html";
+}
