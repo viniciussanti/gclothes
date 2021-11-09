@@ -10,6 +10,8 @@
 
         <link rel="stylesheet" type="text/css" href="css/estilos.css">
 
+        <script src="js/index.js"></script>
+
         <title> GClothes: Loja Virtual de Roupas </title> 
 
 
@@ -32,7 +34,7 @@
 
                     <div class='nav-btn'>
                         <div class="div-menu-button-login">
-                            <input type="button" class="button-login">
+                            <input type="button" class="button-login" onclick="mudaLogin()">
                         </div>
 
                         <div class="div-menu-button-search">
@@ -40,7 +42,7 @@
                         </div>
                         
                         <div class="div-menu-button-cart">
-                            <input type="button" class="button-cart">
+                            <input type="button" class="button-cart" onclick="mudaCarrinho()">
                         </div>
                     </div>
                 </nav>
@@ -53,7 +55,7 @@
             <br>
 
             <div class="div-register-button">
-                <button class="button-register"> CADASTRAR </button>
+                <button class="button-register" onclick="mudaCadastro()"> CADASTRAR </button>
             </div>
 
             <br>
@@ -99,7 +101,7 @@
            <br> <br>
            
            <div class="div-more-options-button">
-               <button class="button-moreoptions">Mais opções</button>
+               <button class="button-moreoptions" onclick="mudaProdutos()">Mais opções</button>
            </div>
 
         <br> <br>
