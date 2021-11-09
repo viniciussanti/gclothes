@@ -10,7 +10,7 @@
 
         <link rel="stylesheet" type="text/css" href="../css/estilos.css">
 
-        <script src="../js/script.js"></script>
+        <script src="../js/cadastro.js"></script>
 
         <title> GClothes: Loja Virtual de Roupas </title> 
 
@@ -34,7 +34,7 @@
 
                     <div class='nav-btn'>
                         <div class="div-menu-button-login">
-                            <input type="button" class="button-login">
+                            <input type="button" class="button-login" onclick="mudaLogin()">
                         </div>
 
                         <div class="div-menu-button-search">
@@ -42,7 +42,7 @@
                         </div>
                         
                         <div class="div-menu-button-cart">
-                            <input type="button" class="button-cart">
+                            <input type="button" class="button-cart" onclick="mudaCarrinho()">
                         </div>
                     </div>
                 </nav>
@@ -75,7 +75,7 @@
             
                 <br> <br>
             
-                <button class="button-register" id="bCadastro"> Cadastre-se </button>
+                <button class="button-register" id="bCadastro" onclick="mudaLogin()"> Cadastre-se </button>
                     
             </form>
 
