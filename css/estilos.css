@@ -331,6 +331,23 @@ p.typeproduct {
     height: 50px;
 }
 
+.field{
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px #CCC;
+    border-radius: 2px;
+}
+
+form {
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
 footer {
     color:#391959;
     top: -1;
