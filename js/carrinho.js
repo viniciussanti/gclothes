@@ -29,3 +29,7 @@ function montarCardProdutos(){
         document.getElementById("divCarrinho").innerHTML += conteudo;
     }
 }
+
+function mudaLogin() {
+    window.location.href = "login.html";
+}
