@@ -356,6 +356,16 @@ footer {
     background: #A300DC;
 }
 
+.TituloCarrinho {
+    justify-content: center;
+    text-align: center;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #391959;
+}
+
 #divProdutos{
     margin: 0 auto;
     justify-content: center;
